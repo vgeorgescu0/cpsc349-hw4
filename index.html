@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>CoffeeRun</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
     <style>
         form :focus:required:invalid {
             border-color: #a94442;
@@ -78,25 +80,9 @@
     <script src="scripts/checklist.js" charset="utf-8"></script>
     <script src="scripts/formhandler.js" charset="utf-8"></script>
     <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+    <script src="scripts/firebasedatastore.js" charset="utf-8"></script>
     <script src="scripts/datastore.js" charset="utf-8"></script>
     <script src="scripts/truck.js" charset="utf-8"></script>
     <script src="scripts/main.js" charset="utf-8"></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
-
-    <script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyAQIokCSNYfD2i9I8XAkmsN_HLxC4ms0fQ",
-        authDomain: "coffeerun-edfa0.firebaseapp.com",
-        projectId: "coffeerun-edfa0",
-        storageBucket: "coffeerun-edfa0.appspot.com",
-        messagingSenderId: "475739354671",
-        appId: "1:475739354671:web:e4aa7e932ccb64770e78da"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    </script>
 </body>
 </html>
